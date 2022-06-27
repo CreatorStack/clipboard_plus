@@ -2,7 +2,7 @@
   package="com.example.clipboard_plus">
     <application>
         <provider
-            android:name="androidx.core.content.FileProvider"
+            android:name=".ClipboardPlusFileProvider"
             android:authorities="${applicationId}.clipboardPlus.provider"
             android:exported="false"
             android:grantUriPermissions="true">

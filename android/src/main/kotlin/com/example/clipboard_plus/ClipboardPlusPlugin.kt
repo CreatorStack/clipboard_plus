@@ -91,3 +91,4 @@ class ClipboardPlusPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
 
 }
 
+class ClipboardPlusFileProvider : FileProvider()
